@@ -1,37 +1,13 @@
-.main-header {
-  border: solid 1px red;
+@import url("./layout.css");
+@import url("./post-item.css");
+@import url("./side-navbar.css");
+
+.post-list {
+  padding: 2.5em;
 }
 
-.main-header h1 {
-  padding-left: 3rem;
-}
-
-.main-header_banner {
+.post-list h2 {
+  margin-bottom: 1.5rem;
   font-size: 2rem;
-  height: 400px;
-  background-color: #f6f6f4;
-  border-top: solid 1px #dedddc;
-  display: flex;
-  flex-direction: column;
-  padding-left: 2rem;
-  justify-content: center;
-  padding-top: 2rem;
-}
-
-.banner_main-text {
-  font-size: 3rem;
   font-weight: 500;
-}
-
-.banner_sub-text {
-  font-size: 2rem;
-  margin-top: 1rem;
-}
-
-.main {
-  border: solid 1px cyan;
-  max-width: 1200px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 0.2fr 1fr;
 }

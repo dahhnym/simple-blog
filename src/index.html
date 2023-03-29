@@ -6,42 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Blog</title>
     <link rel="stylesheet" href="./style/index.css" />
-    <link rel="stylesheet" href="./style//global.css" />
+    <link rel="stylesheet" href="./style/global.css" />
   </head>
   <body>
     <header class="main-header">
       <h1>Tina's digital journal</h1>
       <div class="main-header_banner">
-        <p class="banner_main-text">Wonder how my day was?</p>
-        <p class="banner_sub-text">
-          This is my personal blog for udacity project.
-        </p>
+        <div class="banner_content-wrapper">
+          <p class="banner_main-text">Wonder how my day was?</p>
+          <p class="banner_sub-text">
+            This is my personal blog for udacity project.
+          </p>
+        </div>
       </div>
     </header>
     <main class="main">
-      <aside>
+      <aside class="side-navbar">
         <nav>
-          <ul>
-            <li>Home</li>
-            <li>Daily</li>
-            <li>Tech</li>
+          <ul class="menu">
+            <li class="menu_item"><a href="#">Home</a></li>
+            <li class="menu_item"><a href="#">Daily</a></li>
+            <li class="menu_item"><a href="#">Tech</a></li>
           </ul>
         </nav>
       </aside>
-      <section>
-        <h2>블로그 글 목록 섹션</h2>
-        <article>
-          <h3>제목1</h3>
-          <p>2023.03.26</p>
-          <p>
-            블로그 내용 미리보기 블로그 내용 미리보기 블로그 내용 미리보기
-            블로그 내용 미리보기 블로그 내용 미리보기 블로그 내용 미리보기
-            블로그 내용 미리보기
-          </p>
-          <img src="" alt="이미지" />
-        </article>
+      <section class="post-list">
+        <h2>All Posts</h2>
+        <a href="./post.html#title" class="post-item_wrapper">
+          <article class="post-item">
+            <div class="post-item_content-wrapper">
+              <p class="post-item_date">2023.03.26</p>
+              <h3 class="post-item_title">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </h3>
+              <p class="post-item_preview">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                doloremque quaerat quidem error placeat unde repudiandae numquam
+                debitis dicta maxime. Velit iste quisquam minus illo ut repellat
+                fugit commodi cupiditate!
+              </p>
+            </div>
+            <img src="" alt="이미지" class="post-item_image" />
+          </article>
+        </a>
+        <a href="./post.html#title" class="post-item_wrapper">
+          <article class="post-item">
+            <div class="post-item_content-wrapper">
+              <p class="post-item_date">2023.03.26</p>
+              <h3 class="post-item_title">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </h3>
+              <p class="post-item_preview">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                doloremque quaerat quidem error placeat unde repudiandae numquam
+                debitis dicta maxime. Velit iste quisquam minus illo ut repellat
+                fugit commodi cupiditate!
+              </p>
+            </div>
+            <img src="" alt="이미지" class="post-item_image" />
+          </article>
+        </a>
+        <a href="./post.html#title" class="post-item_wrapper">
+          <article class="post-item">
+            <div class="post-item_content-wrapper">
+              <p class="post-item_date">2023.03.26</p>
+              <h3 class="post-item_title">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </h3>
+              <p class="post-item_preview">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                doloremque quaerat quidem error placeat unde repudiandae numquam
+                debitis dicta maxime. Velit iste quisquam minus illo ut repellat
+                fugit commodi cupiditate!
+              </p>
+            </div>
+            <img src="" alt="이미지" class="post-item_image" />
+          </article>
+        </a>
       </section>
     </main>
-    <footer>&copy; copyright 2023</footer>
+    <footer class="footer">
+      <div class="footer-wrapper">&copy; copyright 2023</div>
+    </footer>
   </body>
 </html>

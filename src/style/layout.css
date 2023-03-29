@@ -1,0 +1,76 @@
+.main-header h1 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  padding: 2rem 3rem;
+}
+
+.main-header_banner {
+  font-size: 2rem;
+  height: 400px;
+  background-color: #f6f6f4;
+  border-top: solid 1px #dedddc;
+}
+
+.banner_content-wrapper {
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 5rem;
+}
+
+.banner_main-text {
+  font-family: "Calistoga", cursive;
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.banner_sub-text {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.side-navbar {
+  border: solid 1px red;
+  padding: 1rem;
+}
+
+.side-navbar .menu .menu_item {
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  padding: 0.3rem 1rem;
+}
+
+.side-navbar .menu .menu_item:hover {
+  background-color: #cde5e7;
+  transition: ease-in-out 0.2s;
+}
+
+.side-navbar .menu .menu_item a {
+  display: inline-block;
+  width: 100%;
+}
+
+.footer {
+  height: 200px;
+  background-color: #efeeea;
+}
+
+.footer-wrapper {
+  border: solid 1px red;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}

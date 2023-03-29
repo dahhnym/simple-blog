@@ -1,0 +1,40 @@
+.post-item_wrapper {
+  display: block;
+  padding: 1.5rem 0;
+}
+
+.post-item_wrapper + .post-item_wrapper {
+  border-top: solid 1px #efeeea;
+}
+
+.post-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-item_content-wrapper {
+  width: 80%;
+}
+
+.post-item_title {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.post-item_date {
+  color: #8c8c8c;
+}
+
+.post-item_title {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.post-item_preview {
+  margin-top: 1rem;
+}
+
+.post-item_image {
+  border: solid 1px blue;
+  width: 15%;
+}
