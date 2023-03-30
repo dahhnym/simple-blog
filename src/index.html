@@ -10,13 +10,13 @@
   </head>
   <body>
     <header class="main-header">
-      <h1>Tina's digital journal</h1>
+      <h1>
+        <a href="./index.html">Tina's digital journal</a>
+      </h1>
       <div class="main-header_banner">
         <div class="banner_content-wrapper">
-          <p class="banner_main-text">Wonder how my day was?</p>
-          <p class="banner_sub-text">
-            This is my personal blog for udacity project.
-          </p>
+          <p class="banner_main-text">Welcome to my blog!</p>
+          <p class="banner_sub-text">I write about frontend web development.</p>
         </div>
       </div>
     </header>
@@ -32,61 +32,104 @@
       </aside>
       <section class="post-list">
         <h2>All Posts</h2>
-        <a href="./post.html#title" class="post-item_wrapper">
+        <a href="./post03.html#title" class="post-item_wrapper">
           <article class="post-item">
             <div class="post-item_content-wrapper">
-              <p class="post-item_date">2023.03.26</p>
+              <p class="post-item_date">2023.03.29</p>
               <h3 class="post-item_title">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                When the submit button is placed outside of the form
               </h3>
               <p class="post-item_preview">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
-                doloremque quaerat quidem error placeat unde repudiandae numquam
-                debitis dicta maxime. Velit iste quisquam minus illo ut repellat
-                fugit commodi cupiditate!
+                If you're building a website, you're likely to run into a
+                situation where you want to place a submit button outside the
+                form element. This can be tricky, as the button and form need to
+                be connected so that clicking the button will trigger the form
+                submission. In this blog post, we'll go over how to connect an
+                HTML form element and a submit button when the submit button is
+                located outside of the form element.
               </p>
             </div>
-            <img src="" alt="이미지" class="post-item_image" />
+            <img
+              src="https://sharethis.imgix.net/2021/03/Blog_ContactPage_031821_WP-min.png?q=75&auto=compress&w=800"
+              alt="Contact Form"
+              class="post-item_image"
+            />
           </article>
         </a>
-        <a href="./post.html#title" class="post-item_wrapper">
+        <a href="./post02.html#title" class="post-item_wrapper">
           <article class="post-item">
             <div class="post-item_content-wrapper">
-              <p class="post-item_date">2023.03.26</p>
-              <h3 class="post-item_title">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              </h3>
+              <p class="post-item_date">2023.03.27</p>
+              <h3 class="post-item_title">React's rendering mechanism</h3>
               <p class="post-item_preview">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
-                doloremque quaerat quidem error placeat unde repudiandae numquam
-                debitis dicta maxime. Velit iste quisquam minus illo ut repellat
-                fugit commodi cupiditate!
+                React is a popular JavaScript library used to build user
+                interfaces. One of the key features of React is its efficient
+                rendering mechanism. React makes it easy to create reusable
+                components, manage state, and efficiently update the user
+                interface. When a React application is running, the virtual DOM
+                (Document Object Model) is updated whenever there is a change in
+                state or props.
               </p>
             </div>
-            <img src="" alt="이미지" class="post-item_image" />
+            <img
+              src="./assets/image02.png"
+              alt="React Logo"
+              class="post-item_image"
+            />
           </article>
         </a>
-        <a href="./post.html#title" class="post-item_wrapper">
+        <a href="./post01.html#title" class="post-item_wrapper">
           <article class="post-item">
             <div class="post-item_content-wrapper">
               <p class="post-item_date">2023.03.26</p>
-              <h3 class="post-item_title">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              </h3>
+              <h3 class="post-item_title">How to make a simple blog website</h3>
               <p class="post-item_preview">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
-                doloremque quaerat quidem error placeat unde repudiandae numquam
-                debitis dicta maxime. Velit iste quisquam minus illo ut repellat
-                fugit commodi cupiditate!
+                Blogging has become an increasingly popular way to share
+                thoughts, ideas, and experiences with the world. Creating a blog
+                website is not as difficult as you may think. With some basic
+                knowledge of HTML and CSS, you can create a simple blog website
+                in no time. In this blog post, we will guide you through the
+                steps to create a basic blog website using HTML and CSS.
               </p>
             </div>
-            <img src="" alt="이미지" class="post-item_image" />
+            <img src="./assets/image01.jpg" alt="" class="post-item_image" />
           </article>
         </a>
       </section>
     </main>
     <footer class="footer">
-      <div class="footer-wrapper">&copy; copyright 2023</div>
+      <div class="footer-wrapper">
+        &copy; copyright 2023 Danim Kim
+        <ul class="social-media_list">
+          <li class="social-media_item">
+            <a href="http://twitter.com" target="_blank"
+              ><img src="./assets/twitter.svg"
+            /></a>
+          </li>
+          <li class="social-media_item">
+            <a
+              href="https://www.instagram.com/hella_sweet_pumpkin/"
+              target="_blank"
+              ><img src="./assets/instagram.svg"
+            /></a>
+          </li>
+          <li class="social-media_item">
+            <a href="http://facebook.com" target="_blank"
+              ><img src="./assets/facebook.svg"
+            /></a>
+          </li>
+          <li class="social-media_item">
+            <a href="http://linkedin.com/in/danim-kim" target="_blank"
+              ><img src="./assets/linkedin.svg"
+            /></a>
+          </li>
+          <li class="social-media_item">
+            <a href="http://github.com/dahhnym" target="_blank"
+              ><img src="./assets/github.svg"
+            /></a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>

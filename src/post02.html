@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Blog</title>
+    <link rel="stylesheet" href="./style/global.css" />
+    <link rel="stylesheet" href="./style/post.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <h1>
+        <a href="./index.html">Tina's digital journal</a>
+      </h1>
+      <div class="main-header_banner">
+        <div class="banner_content-wrapper">
+          <p class="banner_main-text">Welcome to my blog!</p>
+          <p class="banner_sub-text">I write about frontend web development.</p>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <aside class="side-navbar">
+        <nav>
+          <ul class="menu">
+            <li class="menu_item">
+              <a href="./index.html">Home</a>
+            </li>
+            <li class="menu_item">
+              <a href="#">Daily</a>
+            </li>
+            <li class="menu_item">
+              <a href="#">Tech</a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <main class="post-main">
+        <div class="post_header">
+          <p>Danim Kim • March 27</p>
+        </div>
+        <h2 id="title">React's rendering mechanism</h2>
+        <div class="post_content">
+          <img
+            src="./assets/image02.png"
+            alt="content image"
+            class="post-image"
+          />
+          <p>
+            React is a popular JavaScript library used to build user interfaces.
+            One of the key features of React is its efficient rendering
+            mechanism. React makes it easy to create reusable components, manage
+            state, and efficiently update the user interface.
+          </p>
+
+          <p>
+            When a React application is running, the virtual DOM (Document
+            Object Model) is updated whenever there is a change in state or
+            props. The virtual DOM is a lightweight representation of the actual
+            DOM that React uses to efficiently update the UI. React compares the
+            previous version of the virtual DOM with the new version to
+            determine the minimal number of changes needed to update the actual
+            DOM. This process is called reconciliation.
+          </p>
+
+          <p>
+            React's rendering mechanism is fast and efficient because it only
+            updates the parts of the UI that have changed. This avoids
+            unnecessary updates and saves processing time. In addition, React
+            batches updates to reduce the number of times the DOM is
+            manipulated, which further improves performance.
+          </p>
+
+          <p>
+            React also provides tools for developers to optimize rendering. For
+            example, React.memo can be used to memoize functional components and
+            prevent unnecessary re-renders. Similarly, React's useContext hook
+            can be used to avoid prop drilling and improve performance.
+          </p>
+
+          <p>
+            In summary, React's rendering mechanism is fast and efficient,
+            thanks to its use of the virtual DOM and reconciliation process.
+            Developers can further optimize rendering using tools like
+            React.memo and useContext. With React, building high-performance
+            user interfaces is easier than ever.
+          </p>
+        </div>
+        <a href="./index.html" class="button primary">Go Back</a>
+      </main>
+    </main>
+    <footer class="footer">
+      <div class="footer-wrapper">
+        &copy; copyright 2023 Danim Kim
+        <ul class="social-media_list">
+          <li class="social-media_item">
+            <a href="http://twitter.com" target="_blank"
+              ><img src="./assets/twitter.svg"
+            /></a>
+          </li>
+          <li class="social-media_item">
+            <a
+              href="https://www.instagram.com/hella_sweet_pumpkin/"
+              target="_blank"
+              ><img src="./assets/instagram.svg"
+            /></a>
+          </li>
+          <li class="social-media_item">
+            <a href="http://facebook.com" target="_blank"
+              ><img src="./assets/facebook.svg"
+            /></a>
+          </li>
+          <li class="social-media_item">
+            <a href="http://linkedin.com/in/danim-kim" target="_blank"
+              ><img src="./assets/linkedin.svg"
+            /></a>
+          </li>
+          <li class="social-media_item">
+            <a href="http://github.com/dahhnym" target="_blank"
+              ><img src="./assets/github.svg"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

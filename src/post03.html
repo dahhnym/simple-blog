@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Blog</title>
+    <link rel="stylesheet" href="./style/global.css" />
+    <link rel="stylesheet" href="./style/post.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <h1>
+        <a href="./index.html">Tina's digital journal</a>
+      </h1>
+      <div class="main-header_banner">
+        <div class="banner_content-wrapper">
+          <p class="banner_main-text">Welcome to my blog!</p>
+          <p class="banner_sub-text">I write about frontend web development.</p>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <aside class="side-navbar">
+        <nav>
+          <ul class="menu">
+            <li class="menu_item">
+              <a href="./index.html">Home</a>
+            </li>
+            <li class="menu_item">
+              <a href="#">Daily</a>
+            </li>
+            <li class="menu_item">
+              <a href="#">Tech</a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <main class="post-main">
+        <div class="post_header">
+          <p>Danim Kim • March 27</p>
+        </div>
+        <h2 id="title">When the submit button is placed outside of the form</h2>
+        <div class="post_content">
+          <figure class="post-image">
+            <img
+              src="https://sharethis.imgix.net/2021/03/Blog_ContactPage_031821_WP-min.png?q=75&auto=compress&w=800"
+              alt="content image"
+            />
+            <figcaption>
+              <a
+                href="https://sharethis.com/website-tips/2021/03/best-contact-form-design-examples/"
+                >Photo: 50 Best Contact Form Design Examples</a
+              >
+            </figcaption>
+          </figure>
+          <p>
+            If you're building a website, you're likely to run into a situation
+            where you want to place a submit button outside the form element.
+            This can be tricky, as the button and form need to be connected so
+            that clicking the button will trigger the form submission. In this
+            blog post, we'll go over how to connect an HTML form element and a
+            submit button when the submit button is located outside of the form
+            element.
+          </p>
+
+          <p>
+            The first step is to give your form an ID. You can do this by adding
+            the "id" attribute to your form element and giving it a unique name,
+            like so:
+          </p>
+
+          <img
+            src="./assets/post03_code-snippet01.png"
+            alt=""
+            class="code-snippet-image"
+          />
+
+          <p>
+            Next, create your submit button. You can place it anywhere on your
+            webpage, but make sure to give it an ID as well:
+          </p>
+
+          <img
+            src="./assets/post03_code-snippet02.png"
+            alt=""
+            class="code-snippet-image"
+          />
+
+          <p>
+            Now that you have your form and submit button set up, you'll need to
+            add some JavaScript to connect them. Start by selecting your form
+            and submit button using their respective IDs:
+          </p>
+
+          <img
+            src="./assets/post03_code-snippet03.png"
+            alt=""
+            class="code-snippet-image"
+          />
+
+          <p>
+            Once you have your form and submit button selected, you can add an
+            event listener to the submit button that triggers the form
+            submission:
+          </p>
+
+          <p>
+            This code listens for a click event on the submit button, and when
+            triggered, it calls the submit() method on the form element, which
+            will submit the form.
+          </p>
+          <p>
+            That's it! With these few lines of code, you can connect your HTML
+            form element and submit button, even if the button is located
+            outside of the form element. By following these steps, you can
+            create a seamless user experience and ensure that your form is
+            submitted correctly.
+          </p>
+        </div>
+        <a href="./index.html" class="button primary">Go Back</a>
+      </main>
+    </main>
+    <footer class="footer">
+      <div class="footer-wrapper">
+        &copy; copyright 2023 Danim Kim
+        <ul class="social-media_list">
+          <li class="social-media_item">
+            <a href="http://twitter.com" target="_blank"
+              ><img src="./assets/twitter.svg"
+            /></a>
+          </li>
+          <li class="social-media_item">
+            <a
+              href="https://www.instagram.com/hella_sweet_pumpkin/"
+              target="_blank"
+              ><img src="./assets/instagram.svg"
+            /></a>
+          </li>
+          <li class="social-media_item">
+            <a href="http://facebook.com" target="_blank"
+              ><img src="./assets/facebook.svg"
+            /></a>
+          </li>
+          <li class="social-media_item">
+            <a href="http://linkedin.com/in/danim-kim" target="_blank"
+              ><img src="./assets/linkedin.svg"
+            /></a>
+          </li>
+          <li class="social-media_item">
+            <a href="http://github.com/dahhnym" target="_blank"
+              ><img src="./assets/github.svg"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

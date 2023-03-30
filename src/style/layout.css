@@ -1,3 +1,4 @@
+/* header */
 .main-header h1 {
   font-family: "Roboto Slab", serif;
   font-weight: 300;
@@ -29,7 +30,7 @@
 }
 
 .banner_sub-text {
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-top: 1rem;
 }
 
@@ -40,9 +41,11 @@
   grid-template-columns: 20% 80%;
 }
 
+/* side nav bar */
 .side-navbar {
-  border: solid 1px red;
-  padding: 1rem;
+  padding-right: 1rem;
+  border-right: solid 1px #dedddc;
+  margin: 1.5rem 0;
 }
 
 .side-navbar .menu .menu_item {
@@ -61,16 +64,33 @@
   width: 100%;
 }
 
+/* footer */
 .footer {
   height: 200px;
-  background-color: #efeeea;
+  background-color: #e7b75f;
 }
 
 .footer-wrapper {
-  border: solid 1px red;
   max-width: 1200px;
   margin: 0 auto;
   height: 100%;
   display: flex;
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-wrapper .social-media_list {
+  display: flex;
+  gap: 10px;
+  margin-top: 2rem;
+}
+
+.footer-wrapper .social-media_list .social-media_item img {
+  width: 20px;
+}
+
+.footer .footer-wrapper .social-media {
+  border: solid 1px blue;
 }
