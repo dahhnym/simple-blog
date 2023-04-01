@@ -10,7 +10,7 @@ Simple Blog is a blog website built with HTML and CSS.
 - [x] Two pages - Main page and blog post page
 - [x] Common layout for all pages.
 - [x] Custom text and images
-- [x] Mobile frinedly
+- [x] Mobile-friendly pages
 - [x] Less than 5 violations found through the Axe test on the web page.
 - [x] Project deployed successfully.
 
