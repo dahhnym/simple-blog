@@ -15,6 +15,6 @@ Simple Blog is a blog website built with HTML and CSS.
 - [x] Project deployed successfully.
 
 **Axe test result**
-| | |
-| :-----------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: |
-| <img src='https://user-images.githubusercontent.com/74545780/229311400-aefdbccf-a3e1-49c7-9691-4acb1fbdfbd4.jpg' /> | <img src='https://user-images.githubusercontent.com/74545780/229311403-44aed3a5-cf53-4c13-b58f-83b1e9d0ed9c.jpg' /> |
+| Main Page | Blog Post Page |
+| :-: | :-: |
+| <img src='https://user-images.githubusercontent.com/74545780/229312283-1c825228-55e7-442f-a45c-3a89514bd8d5.jpg' /> | <img src='https://user-images.githubusercontent.com/74545780/229312282-1b2ea71b-9da8-44ae-84da-14f3251c1a5d.jpg' /> |
