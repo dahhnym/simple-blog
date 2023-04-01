@@ -12,7 +12,7 @@ Simple Blog is a blog website built with HTML and CSS.
 - [x] Custom text and images
 - [x] Mobile frinedly
 - [x] Less than 5 violations found through the Axe test on the web page.
-- [ ] Project deployed successfully.
+- [x] Project deployed successfully.
 
 **Axe test result**
 | | |
