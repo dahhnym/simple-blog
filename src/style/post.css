@@ -46,4 +46,21 @@
   .side-navbar {
     display: none;
   }
+
+  .post-main {
+    padding: 1.5rem;
+  }
+
+  .post-image {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .post_content .code-snippet-image {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    min-width: 360px;
+  }
 }
