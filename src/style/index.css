@@ -11,3 +11,14 @@
   font-size: 2rem;
   font-weight: 500;
 }
+
+@media all and (max-width: 740px) {
+  .post-list {
+    padding: 0 1.5rem 1.5rem;
+    min-width: 360px;
+  }
+
+  .post-list h2 {
+    display: none;
+  }
+}
