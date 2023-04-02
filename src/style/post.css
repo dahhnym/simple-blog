@@ -12,10 +12,6 @@
   margin-top: 1rem;
 }
 
-.post_header {
-  /* display: flex; */
-}
-
 .header_social-media {
   float: right;
   margin-bottom: 2rem;
@@ -30,6 +26,10 @@
   display: block;
   width: 100%;
   margin-bottom: 3rem;
+}
+
+.post_content .text-underline {
+  text-decoration: underline;
 }
 
 .post_content p {

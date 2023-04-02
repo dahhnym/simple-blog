@@ -33,6 +33,7 @@
 .banner_sub-text {
   font-size: 1.8rem;
   margin-top: 1rem;
+  font-style: italic;
 }
 
 .main {
@@ -63,6 +64,10 @@
 .side-navbar .menu .menu_item a {
   display: inline-block;
   width: 100%;
+}
+
+.side-navbar .menu .menu_item a:hover {
+  text-decoration: underline;
 }
 
 /* footer */

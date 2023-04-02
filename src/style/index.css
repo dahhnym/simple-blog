@@ -1,6 +1,7 @@
 @import url("./layout.css");
 @import url("./post-item.css");
 @import url("./side-navbar.css");
+@import url("./button.css");
 
 .post-list {
   padding: 2.5em;
