@@ -1,10 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
 
 * {
   font-family: "Roboto Slab", serif;
-  font-weight: 300;
   box-sizing: border-box;
+}
+
+p,
+a {
+  font-weight: 300;
 }
 
 html {
